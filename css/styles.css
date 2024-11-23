@@ -6,7 +6,7 @@ body {
 
 /* Tan Bar above the logo */
 .tan-bar {
-  background-color: #c1dfb6;  /* tan background for the thin bar */
+  background-color: #c1dfb6;  /* coloured background for the thin bar */
   text-align: left;           /* center the text */
   padding: 10px;             /* add padding around the text */
   font-size: 24px;              /* font size for the text */
@@ -27,34 +27,34 @@ header {
 /* Logo styles */
 .logo {
   max-height: 100px;           /* max height for the logo */
-  max-width: 100%;             /* width allows the logo to resize and be flexible */
+  max-width: 100%;             /* max width logo to resize and be flexible */
 }
 
 /* Navigation Bar styles */
 nav {
-  background-color: white;  /* Dark background for the navbar */
+  background-color: white;  /* white background for the navbar */
   padding: 10px 20px;        /* Padding around the nav */
-  text-align: center;        /* Centering the navbar links */
+  text-align: center;        /* centered the navbar links */
 }
 
-/* Styles for the navigation links */
+/* styles for the navigation links */
 nav a {
-  color: #333;             /* white text color */
+  color: #333;             /* dark text color */
   padding: 14px 20px;        /* padding inside each link */
-  text-decoration: none;     /* removed underlines */
-  display: inline-block;     /* aligned links horizontally */
-  font-size: 16px;           /* set font size to 16px */
-  margin: 0 10px;            /* spacing between links */
+  text-decoration: none;     /* no underlines */
+  display: inline-block;     /*  links horizontally aligned */
+  font-size: 16px;           /*  font size 16px */
+  margin: 0 10px;            /* link spacing */
 }
 
-/* Hover effect on the navigation links */
+/* hover effect on the navigation links */
 nav a:hover {
-  background-color: white; /* Darker background on hover */
-  border-radius: 5px;        /* Rounded corners on hover */
+  background-color: white; /* lighter background on hover */
+  border-radius: 5px;        /* round corners on hover */
   text-decoration: underline;
 }
 
-/* Dropdown Menu */
+/* dropdown menu */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -87,16 +87,16 @@ nav a:hover {
 }
 
 .image-below-nav {
-  width: 100%;              /* made image full-width */
-  max-height: 400px;        /*  limit height */
-  object-fit: cover;        /* makes image covers the area */
-  margin-bottom: 20px;      /* added some white space below the image */
+  width: 100%;              /*  full-width image */
+  max-height: 400px;        /*   height limited */
+  object-fit: cover;        /* image covers or fits the area */
+  margin-bottom: 20px;      /* white space below the image */
 }
 
 
 
 
-/* Main content area */
+/* main content area */
 main {    
   text-align: center;
   color: #353c4e;
@@ -104,15 +104,15 @@ main {
 }
 
 .centered-image {
-  display: block;           /* a block-level element */
-  margin: 20px auto;        /* image horizontally centered added a vertical margin */
+  display: block;           /* displays a block-level element */
+  margin: 20px auto;        /* image horizontally centered along a vertical margin */
   max-width: 90%;           
-  height: 50px;             /* image's aspect ratio */
+  height: 50px;             /* image aspect ratio */
 }
 
 .image-below-nav {
-  width: 100%; /* Ensures the image stretches to the full width of the container */
-  height: auto; /* Maintains aspect ratio */
+  width: 100%; /* image stretches to the full width of the container */
+  height: auto; 
   object-fit: cover;
   margin: 0;
 }
@@ -120,19 +120,19 @@ main {
 
 /* Image With Text Overlay For Event Page */
 .image-container {
-  position: relative; /* To position the text over the image */
+  position: relative; /*positions the text over the image */
   width: 100%;
   height: auto;
 }
 
 .overlay-text {
   position: absolute;
-  top: 50%;  /* Center the text vertically */
-  left: 50%; /* Center the text horizontally */
-  transform: translate(-50%, -50%); /* Offset to perfectly center the text */
+  top: 50%;  /* centered the text vertically */
+  left: 50%; /* centered the text horizontally */
+  transform: translate(-50%, -50%); /*  centered the text */
   color: white; /* White text color */
   text-align: center;
-  z-index: 10; /* Ensure text is above the image */
+  z-index: 10; /*  text is above the image */
 }
 
 .overlay-text h1 {
@@ -144,13 +144,13 @@ main {
   font-size: 20px;
   margin: 10px 0;}
 
-/* Green Background Section */
+/* green Background Section */
 .green-background {
-  background-color: #c1dfb6;    /* Green background color */
-  padding: 30px;                    /* Remove padding, flush with the top image */
+  background-color: #c1dfb6;    /* green background color */
+  padding: 30px;                    /* use padding to align with the top image */
   display: flex;
-  justify-content: center;       /* Center the box horizontally */
-  margin-top: -40;                 /* Remove any extra top margin to make it flush with the image */
+  justify-content: center;       /* centered the box horizontally */
+  margin-top: -40;                 /* Removed the margin to align with the image */
 }
 
 /* White Box inside the Green Background */
@@ -159,29 +159,29 @@ main {
   color: #353c4e;                  /* Dark text color */
   padding: 30px;                 /* Padding inside the box */
   max-width: 800px;              /* max-width for the box */
-  margin: 0 auto;                /* C box horizontally centered*/
-  border-radius: 0px;           /* Rounded corners for the white box */
+  margin: 0 auto;                /* box horizontally centered*/
+  border-radius: 0px;           
   text-align: center;            /* Center the text inside the box */
 }
 
-/* For the text inside the white box */
+/* for the text inside the white box */
 .white-box h3 {
   font-size: 12px;               /* font size */
   line-height: 1.5;              /*  lines for readability */
-  margin: 0;                     /* Remove default margins */
+  margin: 0;                     
 }
 
 
-  /*Clickable Event Link */
+  /*clickable event link */
   .apply-link {
     color: #353c4e;  /* Blue color for the link */
     text-decoration: none;  /* Removes the default underline */
-    font-size: 18px;  /* Adjust the font size */
+    font-size: 18px;  
 }
 
 .apply-link:hover {
-    text-decoration: underline;  /* Underline the link on hover */
-    color: #6a9752;  /* Darken the color on hover */
+    text-decoration: underline;  /* underlined the link on hover */
+    color: #6a9752;  /* darken the color on hover */
 }
 
 
@@ -200,14 +200,14 @@ main {
   }
   
   .no-border-images img {
-    border: none;  /* Removes the black border */
+    border: none;  
   }
   
 
 /* styles for the header text below the navbar */
 .header-section {
   text-align: center;
-  padding: 10px 10px;  /* Reduced padding to bring it closer to the tan bar */
+  padding: 10px 10px;  /* removed some padding to bring closer to the bar bar */
   background-color: #c1dfb6;
 }
 
@@ -220,10 +220,10 @@ main {
 .white-bar-main {
   background-color: #f5f4f0;  /* white background for the main section */
   text-align: center;
-  padding: 20px 0;             /* added padding below the tan bar */
+  padding: 20px 0;             /*  padding below the tan bar */
   font-size: 24px;
   color: #0c4438;
-  margin-top: -15px;            /* Moves tan bar closer to the image */
+  margin-top: -15px;            /* Moves the margin which makes the  bar closer to the image */
 }
 
 /* footer styles (green background) */
@@ -236,7 +236,7 @@ footer {
 
 footer p {
   margin: 0;
-  color: #353c4e;  /* dark text color for better contrast */
+  color: #353c4e;  /* dark text color  */
 }
 
 body {
@@ -260,14 +260,14 @@ h3 {
   padding: 10;
   cursor:default;
   outline: none;
-  border: 2px  solid black;  /* Black border around the image/text */
+  border: 2px  solid black;  /* black border around the image/text */
 }
 
 
 .image-box img {
   width: 100%;
   height: auto;
-  display: block;  /* Ensures the image behaves as a block element */
+  display: block;  /* image is a block element */
   cursor: default;
   outline: none;
   padding: 0px;
@@ -276,12 +276,12 @@ h3 {
 
 /* Apply black border around the text */
 .image-box p {
-  display: inline-block;  /* Makes the text block behave like an inline element */
-  padding: 0px;          /* Padding inside the text box */
-  background-color: #f0e8c4;  /* Optional: background color to make text stand out */
-  margin: 5;              /* Removes any default margin */
-  text-align: center;     /* Centers the text within the box */
-  font-size: 18px;        /* Adjust font size */
+  display: inline-block;  /*  text block behaves like an inline element */
+  padding: 0px;          /* padding in the text box */
+  background-color: #f0e8c4;  /*  background color to make text blend in */
+  margin: 5;              /* margin */
+  text-align: center;     /* centers the text*/
+  font-size: 18px;        
   cursor: default;
   outline: none;
   width: 100%;
@@ -294,40 +294,40 @@ h3 {
 /*Mission Text Boxes */
       /* Wrapper box for h3 text */
       .text-box {
-        max-width: 800px;    /* Set a max-width for the box */
-        margin: 30px auto;   /* Center the box horizontally and add vertical space */
-        padding: 20px;       /* Add padding inside the box */
-        background-color: rgba(255, 255, 255, 0); /* Make the background transparent */
-        text-align: center;  /* Center the text inside the box */
-        box-sizing: border-box; /* Include padding in the box size */
+        max-width: 800px;    /* set a max-width for the box */
+        margin: 30px auto;   /* Centered the box horizontally and added vertical space */
+        padding: 20px;       /* add padding inside the box */
+        background-color: rgba(255, 255, 255, 0); /*  background transparent */
+        text-align: center;  /* centered the text inside the box */
+        box-sizing: border-box; /*  padding in the box size */
       }
 
       /* Flexbox container for text and right image */
       .text-and-image-container {
-        display: flex;               /* Use flexbox for layout */
+        display: flex;               /* flexbox for layout */
         justify-content: space-between;     /* Space between the text and image */
-        align-items: center;     /* Align the items vertically to the center */
+        align-items: center;     /* aligned the items vertically to the center */
         gap: 30px;                   /* Space between the text and image */
-        margin: 30px 0;              /* Add margin at the top and bottom */
-        padding-left: 20px; /* Add padding to the left of the text */
+        margin: 30px 0;              /* margin fortop and bottom */
+        padding-left: 20px; /* padding to the left of the text */
       }
 
       .text-container {
-        flex: 1;                     /* Take up available space */
-        text-align: left;            /* Align text to the left */
-        padding-right: 20px;         /* Space between text and image */
+        flex: 1;                     
+        text-align: left;            
+        padding-right: 20px;         
         display: flex;
         justify-content: center;     /* Center the text container */
-        align-items: center;         /* Vertically align text container */
-        height: 300px;               /* Set a fixed height for the text container */
-        flex-direction: column;      /* Stack the header and text vertically */
+        align-items: center;         /* Vertically aligned text container */
+        height: 300px;               /* fixed height for the text container */
+        flex-direction: column;      /* Stacked header and text vertically */
       }
 
       /* Right image styles */
       .right-image {
         max-width: 45%;  /* Right image takes up 45% of the available space */
         height: auto;
-        padding-right: 20px; /* Padding to the right of the image for spacing */
+        padding-right: 20px; /* Padding to the right of the image for the spacing */
       }
 
       /* Style for the left image container */
@@ -338,13 +338,13 @@ h3 {
       }
 
 
-      /* Centered text container for the second paragraph */
+      /* Center text container for the second paragraph */
       .text-right-container {
         display: flex;
-        justify-content: flex-start; /* Aligns the text to the right */
+        justify-content: flex-start; /* Aligned text to the right */
         gap: 20px;
         align-items: center;
-        margin: 30px 0; /* Vertical margin */
+        margin: 30px 0; /* vertical margin */
       }
 
       .text-right-container .text-container {
@@ -355,17 +355,17 @@ h3 {
       .text-right-container img {
         max-width: 45%;
         height: auto;
-        padding-left: 20px; /* Add padding to the left of the second image */
+        padding-left: 20px; /* added padding to left of the second image */
       }
 
-      /* New header style for second section */
+      /* header style for second section */
       .section-header {
         color: #6a9752;
         font-size: 40px;
         margin: 30px 0;
       }
 
-      /* Center the text paragraphs */
+      /* Centered text paragraphs */
       .centered-text {
         max-width: 900px;
         margin: 0 auto;

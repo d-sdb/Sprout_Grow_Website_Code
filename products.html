@@ -12,7 +12,7 @@
       .image-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);  /* 4 images per row */
-        gap: 20px;  /* space between the images */
+        gap: 20px;  /*  image gap */
         margin-top: 20px;
       }
 
@@ -21,26 +21,26 @@
         padding: 0px;
         cursor:default;
         outline: none;
-        border: 2px  solid black;  /* Black border around the image/text */
+        border: 2px  solid black;  /* black border around the image/text */
       }
 
       .image-box img {
         width: 100%;
         height: auto;
-        display: block;  /* Ensures the image behaves as a block element */
+        display: block;  /* image displays as a block element */
         cursor: default;
         outline: none;
         
       }
 
-      /* Apply black border around the text */
+      /* black border around the text */
       .image-box p {
-        display: inline-block;  /* Makes the text block behave like an inline element */
-        padding: 0px;          /* Padding inside the text box */
-        background-color: whitesmoke;  /* Optional: background color to make text stand out */
-        margin: 5;              /* Removes any default margin */
-        text-align: center;     /* Centers the text within the box */
-        font-size: 18px;        /* Adjust font size */
+        display: inline-block;  /* text block behave like an inline element */
+        padding: 0px;          /* Padding in text box */
+        background-color: whitesmoke;  /* background color to make text blend in */
+        margin: 5;              /*  margin */
+        text-align: center;     /* text centered within the box */
+        font-size: 18px;        /* font size */
         cursor: default;
         outline: none;
         width: 100%;
@@ -62,32 +62,33 @@
   <main>
       <!-- header section with logo -->
       <header>
-          <img src="images\sprout-grow-horizontal-524-transparent.png" alt="logo" class="logo">  <!-- logo file -->
+          <img src="images\sprout-grow-horizontal-524-transparent.png" alt="logo" class="logo">  
       </header>
 
       <!-- Navigation Bar -->
       <nav>
-          <a href="index.html" class="active">Home</a>        <!-- Link to index page -->
+          <a href="index.html" class="active">Home</a>        
           <div class="dropdown">
-              <a href="about.html">About</a>                     <!-- Link to about page -->
+              <a href="about.html">About</a>                    
               <div class="dropdown-content">
-                  <a href="mission.html">Mission</a>             <!-- Link to mission page -->
+                  <a href="mission.html">Mission</a>             
               </div>
           </div>
-          <a href="products.html">Products</a>               <!-- Link to products page -->
-          <a href="events.html">Events</a>                   <!-- Link to events page -->
+          <a href="products.html">Products</a>               
+          <a href="events.html">Events</a>                   
       </nav>
 
       <!-- image below the navbar -->
 
       <div class="image-container">
-        <img src="images\pexels-jegor-nagel-113940522-9712218.jpg" alt="Example Image" class="image-below-nav">  <!-- Path to image -->
+        <img src="images\pexels-jegor-nagel-113940522-9712218.jpg" alt="image below navbar" class="image-below-nav"> 
+
         <div class="overlay-text">
             <h1>Our Organic Plant Collection</h1>
-            <p> We have the perfect plants to help you grow your organic garden.</p>
+            <p> We have the perfect plants to help you grow your organic garden</p>
         </div>
     </div>
-      <!-- Image grid section -->
+      <!-- image grid section -->
       <div class="image-grid">
         <!-- Row 1 -->
         <div class="image-box">
