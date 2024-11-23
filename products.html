@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprout and Grow</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+   
+
+      /* Styles for image grid */
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);  /* 4 images per row */
+        gap: 20px;  /* space between the images */
+        margin-top: 20px;
+      }
+
+      .image-box {
+        text-align: center;
+        padding: 0px;
+        cursor:default;
+        outline: none;
+        border: 2px  solid black;  /* Black border around the image/text */
+      }
+
+      .image-box img {
+        width: 100%;
+        height: auto;
+        display: block;  /* Ensures the image behaves as a block element */
+        cursor: default;
+        outline: none;
+        
+      }
+
+      /* Apply black border around the text */
+      .image-box p {
+        display: inline-block;  /* Makes the text block behave like an inline element */
+        padding: 0px;          /* Padding inside the text box */
+        background-color: whitesmoke;  /* Optional: background color to make text stand out */
+        margin: 5;              /* Removes any default margin */
+        text-align: center;     /* Centers the text within the box */
+        font-size: 18px;        /* Adjust font size */
+        cursor: default;
+        outline: none;
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 2px  black;
+      }
+
+
+
+  </style>
+</head>
+<body>
+
+  <!-- tan bar above the logo -->
+  <div class="tan-bar">
+    Call us today for more information!
+  </div>
+
+  <main>
+      <!-- header section with logo -->
+      <header>
+          <img src="images\sprout-grow-horizontal-524-transparent.png" alt="logo" class="logo">  <!-- logo file -->
+      </header>
+
+      <!-- Navigation Bar -->
+      <nav>
+          <a href="index.html" class="active">Home</a>        <!-- Link to index page -->
+          <div class="dropdown">
+              <a href="about.html">About</a>                     <!-- Link to about page -->
+              <div class="dropdown-content">
+                  <a href="mission.html">Mission</a>             <!-- Link to mission page -->
+              </div>
+          </div>
+          <a href="products.html">Products</a>               <!-- Link to products page -->
+          <a href="events.html">Events</a>                   <!-- Link to events page -->
+      </nav>
+
+      <!-- image below the navbar -->
+
+      <div class="image-container">
+        <img src="images\pexels-jegor-nagel-113940522-9712218.jpg" alt="Example Image" class="image-below-nav">  <!-- Path to image -->
+        <div class="overlay-text">
+            <h1>Our Organic Plant Collection</h1>
+            <p> We have the perfect plants to help you grow your organic garden.</p>
+        </div>
+    </div>
+      <!-- Image grid section -->
+      <div class="image-grid">
+        <!-- Row 1 -->
+        <div class="image-box">
+            <img src="images\pexels-maxandrey-1366630.jpg" alt="Flower 1">
+            <p>Annuals</p>
+        </div>
+        <div class="image-box">
+            <img src="images/pexels-minasenishino-29482664small.jpg" alt="Flower 2">
+            <p>Perennials</p>
+        </div>
+        <div class="image-box">
+            <img src="images\pexels-passengerslover-25568602.jpg" alt="Flower 3">
+            <p>Trees & Shrubs</p>
+        </div>
+        <div class="image-box">
+            <img src="images/pexels-dplainer-29460749.jpg" alt="Flower 4">
+            <p>Houseplants and Orchids</p>
+        </div>
+    
+        <!-- Row 2 -->
+        <div class="image-box">
+            <img src="images\pexels-mavimiro-12765459.jpg" alt="Flower 5">
+            <p>Vegetables and Edibles</p>
+        </div>
+        <div class="image-box">
+            <img src="images/pexels-kub-1341441572-25470865.jpg" alt="Flower 6">
+            <p>Bulbs</p>
+        </div>
+        <div class="image-box">
+            <img src="images/pexels-shvetsa-5230901.jpg" alt="Flower 7">
+            <p>Custom Potted Arrangements</p>
+        </div>
+        <div class="image-box">
+            <img src="images/pexels-alfomedeiros-12184309.jpg" alt="Flower 8">
+            <p>Gardening Resources</p>
+        </div>
+    </div>
+      
+  </main>
+
+  <footer>
+      <!-- footer content -->
+      <p>&copy; 2024 Sprout and Grow. All Rights Reserved. Connect with us through Facebook and Twitter!</p>
+  </footer>
+</body>
+</html>
